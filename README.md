@@ -6,13 +6,14 @@ Custom jOOQ binding for PostgreSQL int8multirange type.
 
 # About
 
-Postgres 14 introduces [built-in multirange types](https://www.postgresql.org/docs/14/rangetypes.html).
+PostgreSQL 14 introduces [built-in multirange types](https://www.postgresql.org/docs/14/rangetypes.html).
 Support for these types is [not yet available in jOOQ](https://github.com/jOOQ/jOOQ/issues/13172).
-This repository demostrates a custom binding and converter to allow jOOQ to work with these types.
+This repository demonstrates a custom binding and converter to allow jOOQ to work with these types.
 
 # Usage
 
 Create a field and set the `DataType` with the binding.
+
 ```kotlin
     private val rangesField = field(
         name("test", "ranges"),
