@@ -1,4 +1,4 @@
-# jOOQ-pg-int8multirange
+# jOOQ-pg-int8multirange [<img align="right" alt="The blog of Peter Evans: Using Postgres multirange types with jOOQ" title="View blog post" src="https://peterevans.dev/img/blog-published-badge.svg">](https://peterevans.dev/posts/postgres-multirange-types-with-jooq/)
 
 [![CI](https://github.com/peter-evans/patience/actions/workflows/ci.yml/badge.svg)](https://github.com/peter-evans/patience/actions/workflows/ci.yml)
 
